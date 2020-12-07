@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcesamientoImagenes1", "ProcesamientoImagenes1\ProcesamientoImagenes1.csproj", "{A5F1D5E8-EBF0-4865-9683-D05F3C388E22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcesamientoImagenes1.Logica", "ProcesamientoImagenes1.Logica\ProcesamientoImagenes1.Logica.csproj", "{0F863DC6-31E7-4139-AC38-E9962BC7B833}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A5F1D5E8-EBF0-4865-9683-D05F3C388E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5F1D5E8-EBF0-4865-9683-D05F3C388E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5F1D5E8-EBF0-4865-9683-D05F3C388E22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F863DC6-31E7-4139-AC38-E9962BC7B833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F863DC6-31E7-4139-AC38-E9962BC7B833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F863DC6-31E7-4139-AC38-E9962BC7B833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F863DC6-31E7-4139-AC38-E9962BC7B833}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
