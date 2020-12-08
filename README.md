@@ -18,3 +18,4 @@
 
 **Nota:** el aplicativo sólo funciona en Microsoft Windows (probado en Microsoft Windows 7 y 10).
 
+### Si hace [click aquí](https://drive.google.com/file/d/1ruObB_jpR9r4olw5eFlpm45E5tU_-hKL/view?usp=sharing "click aquí"), encontrará un Jupyter Notebook con los Trabajos Prácticos 1 y 2 resueltos.
