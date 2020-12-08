@@ -254,7 +254,10 @@ namespace ProcesamientoImagenes1.Logica
                         YIQModPixel.Y = ValidateYIQ((float)Math.Pow(pixel.Y, 2), 0, 1);                    
                         break;
                     case "Lineal a trozos":
-                        YIQModPixel.Y = ValidateYIQ(pixel.Y, min, max);
+                        float n = min / (1 - min);
+                        float m = (1 + n) * max;
+                        float Y = m * pixel.Y - n;
+                        YIQModPixel.Y = ValidateYIQ(Y, 0, 1);
                         break;
                 }
 
